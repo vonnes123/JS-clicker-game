@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker game</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .scoreboard{
+            text-transform: uppercase;
+            font-size: 2em;
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .active{
+            cursor: crosshair;
+            background-color: red;
+        }
+        .btn{
+            display: block;
+            padding: 10px;
+            margin: 10px auto;
+            width: 25%;
+            font-size: 2em;
+        }
+        .gridContainer{
+            display: grid;
+        }
+        .grid-item{
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+
+    <div class="gameArea"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
